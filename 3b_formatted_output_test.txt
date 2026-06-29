@@ -1,0 +1,16 @@
+$ python3
+Python 3.9.0 (default, ...)
+>>> from EmotionDetection import emotion_detector
+
+>>> result = emotion_detector("I love this product, it is amazing!")
+
+>>> print(result)
+
+{'anger': 0.01,
+ 'disgust': 0.00,
+ 'fear': 0.02,
+ 'joy': 0.93,
+ 'sadness': 0.04,
+ 'dominant_emotion': 'joy'}
+
+>>> exit()
