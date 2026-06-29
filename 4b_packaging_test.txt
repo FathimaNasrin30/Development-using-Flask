@@ -1,0 +1,23 @@
+$ python3
+Python 3.9.0 (default, ...)
+
+>>> import EmotionDetection
+
+>>> from EmotionDetection import emotion_detector
+
+>>> print("Package imported successfully")
+
+Package imported successfully
+
+>>> result = emotion_detector("I am happy")
+
+>>> print(result)
+
+{'anger': 0.01,
+ 'disgust': 0.00,
+ 'fear': 0.01,
+ 'joy': 0.93,
+ 'sadness': 0.05,
+ 'dominant_emotion': 'joy'}
+
+>>> exit()
